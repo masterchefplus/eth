@@ -1,0 +1,40 @@
+{
+  "files": {
+    "static/js/0.e690920c.chunk.js": "/static/js/0.e690920c.chunk.js",
+    "main.css": "/static/css/main.118c76a0.chunk.css",
+    "main.js": "/static/js/main.52d108b7.chunk.js",
+    "runtime-main.js": "/static/js/runtime-main.3d7b20ab.js",
+    "static/css/3.7a3a02a0.chunk.css": "/static/css/3.7a3a02a0.chunk.css",
+    "static/js/3.9d5b96ce.chunk.js": "/static/js/3.9d5b96ce.chunk.js",
+    "static/js/4.ea9ee31e.chunk.js": "/static/js/4.ea9ee31e.chunk.js",
+    "static/js/5.52b3258e.chunk.js": "/static/js/5.52b3258e.chunk.js",
+    "static/js/6.3f437e2f.chunk.js": "/static/js/6.3f437e2f.chunk.js",
+    "static/js/7.74d3a6d8.chunk.js": "/static/js/7.74d3a6d8.chunk.js",
+    "static/js/8.f9d4fbfe.chunk.js": "/static/js/8.f9d4fbfe.chunk.js",
+    "static/js/9.74e26e57.chunk.js": "/static/js/9.74e26e57.chunk.js",
+    "static/js/10.7cbd321a.chunk.js": "/static/js/10.7cbd321a.chunk.js",
+    "static/js/11.7571569f.chunk.js": "/static/js/11.7571569f.chunk.js",
+    "index.html": "/index.html",
+    "precache-manifest.51792018d07307ccbc57e20a4f1bfcc6.js": "/precache-manifest.51792018d07307ccbc57e20a4f1bfcc6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/3.9d5b96ce.chunk.js.LICENSE.txt": "/static/js/3.9d5b96ce.chunk.js.LICENSE.txt",
+    "static/js/5.52b3258e.chunk.js.LICENSE.txt": "/static/js/5.52b3258e.chunk.js.LICENSE.txt",
+    "static/js/6.3f437e2f.chunk.js.LICENSE.txt": "/static/js/6.3f437e2f.chunk.js.LICENSE.txt",
+    "static/js/7.74d3a6d8.chunk.js.LICENSE.txt": "/static/js/7.74d3a6d8.chunk.js.LICENSE.txt",
+    "static/js/8.f9d4fbfe.chunk.js.LICENSE.txt": "/static/js/8.f9d4fbfe.chunk.js.LICENSE.txt",
+    "static/media/chef.png": "/static/media/chef.0f496876.png",
+    "static/media/dai.png": "/static/media/dai.6a47d162.png",
+    "static/media/metamask-fox.svg": "/static/media/metamask-fox.c06f3a3e.svg",
+    "static/media/usdc.svg": "/static/media/usdc.ce664acf.svg",
+    "static/media/usdt.svg": "/static/media/usdt.f62d165f.svg",
+    "static/media/wallet-connect.svg": "/static/media/wallet-connect.37f2bc6e.svg",
+    "static/media/wbtc.svg": "/static/media/wbtc.f524516c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d7b20ab.js",
+    "static/css/3.7a3a02a0.chunk.css",
+    "static/js/3.9d5b96ce.chunk.js",
+    "static/css/main.118c76a0.chunk.css",
+    "static/js/main.52d108b7.chunk.js"
+  ]
+}
