@@ -1,0 +1,10 @@
+self.__BUILD_MANIFEST = {
+    __rewrites: [],
+    "/": ["static\u002Fchunks\u002Fpages\u002Findex-2015671b68b03c8db99f.js"],
+    "/_error": ["static\u002Fchunks\u002Fpages\u002F_error-154b2ec68bf9e7204aeb.js"],
+    "/check-point": ["static\u002Fchunks\u002Fpages\u002Fcheck-point-b250e12ab1f6c9bd1c89.js"],
+    "/gum-pad": ["static\u002Fchunks\u002Fpages\u002Fgum-pad-3b7915444f3daaf70d2a.js"],
+    "/gum-token": ["static\u002Fchunks\u002Fpages\u002Fgum-token-74dc044f420600a096d1.js"],
+    sortedPages: ["\u002F", "\u002F_app", "\u002F_error", "\u002Fcheck-point", "\u002Fgum-pad", "\u002Fgum-token"]
+};
+self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()

@@ -1,0 +1,1364 @@
+_N_E = (window.webpackJsonp_N_E = window.webpackJsonp_N_E || []).push([
+    [11], {
+        "/0+H": function(e, t, s) {
+            "use strict";
+            t.__esModule = !0, t.isInAmpMode = r, t.useAmp = function() {
+                return r(n.default.useContext(i.AmpStateContext))
+            };
+            var a, n = (a = s("q1tI")) && a.__esModule ? a : {
+                    default: a
+                },
+                i = s("lwAK");
+
+            function r() {
+                var e = arguments.length > 0 && void 0 !== arguments[0] ? arguments[0] : {},
+                    t = e.ampFirst,
+                    s = void 0 !== t && t,
+                    a = e.hybrid,
+                    n = void 0 !== a && a,
+                    i = e.hasQuery,
+                    r = void 0 !== i && i;
+                return s || n && r
+            }
+        },
+        "/EDR": function(e, t, s) {
+            (window.__NEXT_P = window.__NEXT_P || []).push(["/", function() {
+                return s("23aj")
+            }])
+        },
+        "23aj": function(e, t, s) {
+            "use strict";
+            s.r(t), s.d(t, "__N_SSP", (function() {
+                return f
+            }));
+            var a = s("nKUr"),
+                n = s("q1tI"),
+                i = s("g4pe"),
+                r = s.n(i),
+                o = s("MX0m"),
+                c = s.n(o),
+                l = s("LvDl"),
+                m = s.n(l),
+                x = function(e) {
+                    var t = function(e) {
+                        var t = document.getElementById("gum-background__cover-img");
+                        e.matches ? null === t || void 0 === t || t.setAttribute("src", "/images/cover/background-mobile.svg") : null === t || void 0 === t || t.setAttribute("src", "/images/cover/background.svg")
+                    };
+                    return n.useEffect((function() {
+                        var e = window.matchMedia("(max-width: 576px)");
+                        t(e), e.addListener(t)
+                    })), Object(a.jsxs)(n.Fragment, {
+                        children: [Object(a.jsxs)("div", {
+                            id: "home",
+                            className: "jsx-370036588 gum-cover",
+                            children: [Object(a.jsx)("div", {
+                                className: "jsx-370036588 gum-background__cover",
+                                children: Object(a.jsx)("img", {
+                                    id: "gum-background__cover-img",
+                                    src: "/images/cover/background.svg",
+                                    alt: "background-cover",
+                                    className: "jsx-370036588"
+                                })
+                            }), Object(a.jsx)("div", {
+                                className: "jsx-370036588 gum-cover__earth",
+                                children: Object(a.jsx)("img", {
+                                    src: "/images/cover/earth.svg",
+                                    alt: "earth",
+                                    className: "jsx-370036588"
+                                })
+                            }), Object(a.jsx)("div", {
+                                className: "jsx-370036588 gum-cover__mars",
+                                children: Object(a.jsx)("img", {
+                                    src: "/images/cover/mars.svg",
+                                    alt: "mars",
+                                    className: "jsx-370036588"
+                                })
+                            }), Object(a.jsx)("div", {
+                                className: "jsx-370036588 gum-cover__venus",
+                                children: Object(a.jsx)("img", {
+                                    src: "/images/cover/venus.svg",
+                                    alt: "venus",
+                                    className: "jsx-370036588"
+                                })
+                            }), Object(a.jsxs)("div", {
+                                className: "jsx-370036588 gum-cover__content",
+                                children: [Object(a.jsxs)("div", {
+                                    className: "jsx-370036588 gum-background__data",
+                                    children: [, Object(a.jsxs)("div", {
+                                            className: "jsx-370036588 gum-button data-block",
+                                            children: [Object(a.jsxs)("button", {
+                                                className: "jsx-370036588 button-light",
+                                                children: [Object(a.jsx)("p", {
+                                                    className: "jsx-370036588",
+                                                    children: "Initial Supply"
+                                                }), Object(a.jsx)("p", {
+                                                    id: "initial-supply",
+                                                    className: "jsx-370036588",
+                                                    children: m.a.round(e.result.initialSupply, 2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+                                                })]
+                                            }), Object(a.jsx)("div", {
+                                                className: "jsx-370036588 gum-button__overlay "
+                                            })]
+                                        }), Object(a.jsxs)("div", {
+                                        className: "jsx-370036588 gum-button data-block",
+                                        children: [Object(a.jsxs)("button", {
+                                            className: "jsx-370036588 button-light",
+                                            children: [Object(a.jsx)("p", {
+                                                className: "jsx-370036588",
+                                                children: "Start Token Price"
+                                            }), Object(a.jsx)("p", {
+                                                id: "token-price",
+                                                className: "jsx-370036588",
+                                                children: e.result.price
+                                            })]
+                                        }), Object(a.jsx)("div", {
+                                            className: "jsx-370036588 gum-button__overlay"
+                                        })]
+                                    }), Object(a.jsxs)("div", {
+                                        className: "jsx-370036588 gum-button data-block",
+                                        children: [Object(a.jsxs)("button", {
+                                            className: "jsx-370036588 button-light",
+                                            children: [Object(a.jsx)("p", {
+                                                className: "jsx-370036588",
+                                                children: "Chain"
+                                            }), Object(a.jsx)("p", {
+                                                id: "total-supply",
+                                                className: "jsx-370036588",
+                                                children: e.result.chain
+                                            })]
+                                        }), Object(a.jsx)("div", {
+                                            className: "jsx-370036588 gum-button__overlay"
+                                        })]
+                                    })]
+                                }), Object(a.jsx)("h1", {
+                                    className: "jsx-370036588 gum-cover__title",
+                                    children: "Welcome to DOGX"
+                                }), Object(a.jsxs)("p", {
+                                    className: "jsx-370036588 gum-cover__description",
+                                    children: ["Advanced Yield Farming Strategies with Unique Burning Mechanisms and Vaults. ", Object(a.jsx)("br", {
+                                        className: "jsx-370036588"
+                                    }), Object(a.jsx)("b", {
+                                        className: "jsx-370036588",
+                                        children: "Direct Listing on PancakeSwap. Estimate Time: Sun Apr 25 2021 00:00:00 (UTC+0)."
+                                    })]
+                                }), Object(a.jsxs)("div", {
+                                    className: "jsx-370036588 d-md-flex ",
+                                    children: [Object(a.jsx)("div", {
+                                        className: "jsx-370036588 gum-button mr-md-3",
+                                        children: Object(a.jsxs)("a", {
+                                            href: "https://www.timeanddate.com/countdown/launch?p0=136&iso=20210425T00&year=2021&month=4&day=25&hour=0&min=0&sec=0&msg=DogX%20Token%20Listing%20On%20PancakeSwap&csz=1",
+                                            target: "blank",
+                                            className: "jsx-370036588",
+                                            children: [Object(a.jsx)("button", {
+                                                className: "jsx-370036588 button-light",
+                                                children: "View countdown"
+                                            }), Object(a.jsx)("div", {
+                                                className: "jsx-370036588 gum-button__overlay"
+                                            })]
+                                        })
+                                    }), Object(a.jsx)("div", {
+                                        className: "jsx-370036588 gum-button",
+                                        children: Object(a.jsxs)("a", {
+                                            href: "https://dogxdefi.gitbook.io/dogx/",
+                                            target: "blank",
+                                            className: "jsx-370036588",
+                                            children: [Object(a.jsx)("button", {
+                                                className: "jsx-370036588 button-light",
+                                                children: "Read docs"
+                                            }), Object(a.jsx)("div", {
+                                                className: "jsx-370036588 gum-button__overlay"
+                                            })]
+                                        })
+                                    })]
+                                })]
+                            }), Object(a.jsx)("div", {
+                                onClick: function() {
+                                    document.getElementById("about").scrollIntoView({
+                                        behavior: "smooth"
+                                    })
+                                },
+                                className: "jsx-370036588 button-scroll",
+                                children: Object(a.jsx)("img", {
+                                    src: "/images/cover/arrow.svg",
+                                    alt: "arrow",
+                                    className: "jsx-370036588"
+                                })
+                            })]
+                        }), Object(a.jsx)(c.a, {
+                            id: "370036588",
+                            children: [".gum-cover.jsx-370036588{position:relative;height:130vh;}", ".gum-background__cover.jsx-370036588{position:absolute;top:0;left:0;width:100%;height:130vh;}", ".gum-background__cover.jsx-370036588 img.jsx-370036588{width:100%;}", ".gum-cover__content.jsx-370036588{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;height:100%;position:relative;top:10;}", ".gum-cover__title.jsx-370036588{font-family:Audiowide;font-style:normal;font-weight:normal;font-size:53.338px;line-height:68px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;text-transform:uppercase;color:#FFFFFF;text-shadow:3.68483px 3.68483px 9.21208px #BD13FF;max-width:762px;}", ".gum-cover__description.jsx-370036588{font-family:Poppins;font-style:normal;font-weight:normal;font-size:18px;line-height:30px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;color:#FFFFFF;margin:30px 0 50px;text-shadow:0px 3.26301px 3.26301px rgba(0,0,0,0.25);}", ".button-scroll.jsx-370036588{position:absolute;bottom:20px;left:50%;-webkit-translateX:-50%;translateX:-50%;background:#FFFFFF;box-shadow:0px 0px 15px #BD13FF;width:37px;height:37px;border-radius:50%;text-align:center;line-height:37px;cursor:pointer;}", ".gum-background__data.jsx-370036588{margin-bottom:2rem;white-space:nowrap;text-align:center;height:111px;width:100%;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}", ".gum-background__data.jsx-370036588 .data-block.jsx-370036588{display:inline-block;margin:unset;margin:0 .5rem;margin-top:0rem;min-width:206px;}", ".gum-background__data.jsx-370036588 .data-block.jsx-370036588 .button-light.jsx-370036588{width:100%;}", ".gum-background__data.jsx-370036588 .data-block.jsx-370036588 p.jsx-370036588:first-child{font-family:Poppins;font-style:normal;font-weight:600;font-size:12px;line-height:18px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;color:#310542;}", ".gum-background__data.jsx-370036588 .data-block.jsx-370036588 p.jsx-370036588:last-child{font-family:Audiowide;font-style:normal;font-weight:normal;font-size:20px;line-height:25px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;text-transform:uppercase;color:#AF60FF;}", "@media screen and (max-width:760px){.gum-background__cover.jsx-370036588 img.jsx-370036588{height:unset;}}", "@media screen and (max-width:576px){.gum-cover.jsx-370036588{height:130vh;}.gum-cover__content.jsx-370036588{height:120%;}.gum-background__data.jsx-370036588{overflow-x:scroll;overflow-x:auto;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;height:135px;padding:0 1rem;padding-bottom:1rem;}.gum-background__data.jsx-370036588 .data-block.jsx-370036588{height:112px;}.gum-cover__title.jsx-370036588{font-weight:normal;font-size:40px;line-height:55px;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;max-width:278px;margin-top:-20px;}.gum-cover__content.jsx-370036588{top:-50px;}.button-scroll.jsx-370036588{bottom:0%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}.gum-background__data.jsx-370036588::-webkit-scrollbar{width:4px;height:7px;background-color:rgba(255,255,255,0.2);-webkit-border-radius:100px;}.gum-background__data.jsx-370036588::-webkit-scrollbar-thumb{background-color:rgba( 0,0,0,0.5);}.gum-background__data.jsx-370036588::-webkit-scrollbar.jsx-370036588:hover{background-color:rgba(255,255,255,0.3);}.gum-background__data.jsx-370036588::-webkit-scrollbar-thumb.jsx-370036588:horizontal{background:rgba(0,0,0,0.5);-webkit-border-radius:100px;}.gum-background__data.jsx-370036588::-webkit-scrollbar-thumb.jsx-370036588:horizontal.jsx-370036588:active{background:rgba(0,0,0,0.61);-webkit-border-radius:100px;}}"]
+                        })]
+                    })
+                },
+                j = function(e) {
+                    return Object(a.jsxs)(n.Fragment, {
+                        children: [Object(a.jsxs)("div", {
+                            id: "about",
+                            className: "jsx-2024925485 gum-about",
+                            children: [Object(a.jsx)("div", {
+                                className: "jsx-2024925485 gum-about__background",
+                                children: Object(a.jsx)("img", {
+                                    src: "/images/about/background.svg",
+                                    alt: "background-about",
+                                    className: "jsx-2024925485"
+                                })
+                            }), Object(a.jsx)("div", {
+                                className: "jsx-2024925485 gum-about__content",
+                                children: Object(a.jsx)("div", {
+                                    className: "jsx-2024925485 container",
+                                    children: Object(a.jsxs)("div", {
+                                        className: "jsx-2024925485 row",
+                                        children: [Object(a.jsx)("div", {
+                                            className: "jsx-2024925485 col-md-6",
+                                            children: Object(a.jsxs)("div", {
+                                                className: "jsx-2024925485 about-gourmet",
+                                                children: [Object(a.jsx)("div", {
+                                                    className: "jsx-2024925485 about-gourmet__title",
+                                                    children: "about DOGX"
+                                                }), Object(a.jsxs)("div", {
+                                                    className: "jsx-2024925485 about-gourmet__description",
+                                                    children: [Object(a.jsx)("span", {
+                                                        className: "jsx-2024925485",
+                                                        children: "DogX"
+                                                    }), Object(a.jsxs)("p", {
+                                                        className: "jsx-2024925485",
+                                                        children: ["is the first project ", Object(a.jsx)("br", {
+                                                            className: "jsx-2024925485"
+                                                        }), " combining ", Object(a.jsx)("br", {
+                                                            className: "jsx-2024925485"
+                                                        }), Object(a.jsx)("b", {
+                                                            className: "jsx-2024925485",
+                                                            children: "NFTs, Yield Farming"
+                                                        }), " and ", Object(a.jsx)("b", {
+                                                            className: "jsx-2024925485",
+                                                            children: "Vaults"
+                                                        }), ". "]
+                                                    })]
+                                                })]
+                                            })
+                                        }), Object(a.jsx)("div", {
+                                            className: "jsx-2024925485 col-md-6",
+                                            children: Object(a.jsxs)("div", {
+                                                className: "jsx-2024925485 about-gourmet__images",
+                                                children: [Object(a.jsx)("img", {
+                                                    src: "/images/about/logolight.png",
+                                                    alt: "logolight",
+                                                    className: "jsx-2024925485"
+                                                }), Object(a.jsx)("img", {
+                                                    src: "/images/about/shootingstars.svg",
+                                                    alt: "shootingstars",
+                                                    className: "jsx-2024925485"
+                                                })]
+                                            })
+                                        })]
+                                    })
+                                })
+                            })]
+                        }), Object(a.jsx)(c.a, {
+                            id: "2024925485",
+                            children: [".gum-about.jsx-2024925485{position:relative;height:100vh;overflow:hidden;}", ".gum-about__background.jsx-2024925485{position:absolute;top:0;left:0;width:100%;height:100vh;}", ".gum-about__background.jsx-2024925485 img.jsx-2024925485{width:100%;}", ".gum-about__content.jsx-2024925485{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;position:relative;z-index:2;height:100%;}", '.about-gourmet.jsx-2024925485{max-width:406px;min-height:368px;width:100%;position:relative;background-image:url("/images/about/about.svg");background-repeat:no-repeat;background-size:cover;}', ".about-gourmet__title.jsx-2024925485{position:absolute;font-family:Audiowide;font-style:normal;font-weight:normal;font-size:31px;line-height:40px;top:46px;left:30px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;text-transform:uppercase;color:#FFFFFF;text-shadow:4px 4px 10px #BD13FF;}", ".about-gourmet__description.jsx-2024925485{position:absolute;text-align:center;top:150px;padding:0 1rem;}", ".about-gourmet__description.jsx-2024925485 span.jsx-2024925485{font-family:Poppins;font-style:normal;font-weight:bold;font-size:29.3671px;line-height:44px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;color:#AF60FF;text-shadow:0px 3.26301px 3.26301px rgba(0,0,0,0.25);}", ".about-gourmet__description.jsx-2024925485 p.jsx-2024925485{font-family:Poppins;font-style:normal;font-weight:normal;font-size:21.21px;line-height:31.81px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;color:white;}", ".about-gourmet__images.jsx-2024925485{position:relative;margin-top:-120px;}", ".about-gourmet__images.jsx-2024925485 img.jsx-2024925485:first-child{width:464px;}", ".about-gourmet__images.jsx-2024925485 img.jsx-2024925485:last-child{position:absolute;top:100px;right:0px;width:182px;}", '@media screen and (max-width:567px){.about-gourmet.jsx-2024925485{max-width:368px;min-height:333px;background-image:url("/images/about/about-mobile.png");background-size:100%;}.about-gourmet__title.jsx-2024925485{top:42px;font-size:26px;line-height:36px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;}.about-gourmet__description.jsx-2024925485{top:120px;}.about-gourmet__description.jsx-2024925485 span.jsx-2024925485{font-size:26px;line-height:39px;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;}.about-gourmet__description.jsx-2024925485 p.jsx-2024925485{font-size:19px;line-height:28.5px;}.about-gourmet__images.jsx-2024925485 img.jsx-2024925485:first-child{width:343px;}.about-gourmet__images.jsx-2024925485{margin-top:1rem;}.about-gourmet__images.jsx-2024925485 img.jsx-2024925485:last-child{top:100px;right:0px;width:102px;}.gum-about__background.jsx-2024925485 img.jsx-2024925485{width:unset;height:100%;}}']
+                        })]
+                    })
+                },
+                d = s("InUf"),
+                p = function(e) {
+                    return Object(a.jsxs)(n.Fragment, {
+                        children: [Object(a.jsxs)("div", {
+                            id: "ntf",
+                            className: "jsx-3384968421 ntf",
+                            children: [Object(a.jsx)("div", {
+                                className: "jsx-3384968421 ntf__planet1",
+                                children: Object(a.jsx)("img", {
+                                    src: "/images/ntf/planet1.svg",
+                                    alt: "planet1",
+                                    className: "jsx-3384968421"
+                                })
+                            }), Object(a.jsx)("div", {
+                                className: "jsx-3384968421 ntf__planet2",
+                                children: Object(a.jsx)("img", {
+                                    src: "/images/ntf/planet3.svg",
+                                    alt: "planet3",
+                                    className: "jsx-3384968421"
+                                })
+                            }), Object(a.jsx)("div", {
+                                className: "jsx-3384968421 ntf__planet3",
+                                children: Object(a.jsx)("img", {
+                                    src: "/images/ntf/planet2.svg",
+                                    alt: "planet2",
+                                    className: "jsx-3384968421"
+                                })
+                            }), Object(a.jsxs)("div", {
+                                className: "jsx-3384968421 ntf-content",
+                                children: [Object(a.jsx)("h1", {
+                                    className: "jsx-3384968421 ntf-title",
+                                    children: "DogX NFTs"
+                                }), Object(a.jsx)("p", {
+                                    className: "jsx-3384968421 ntf-descripton",
+                                    children: "The DogX NFTs Marketplace is a community-driven platform where creators can monetize ASSETS and gaming experiences on the blockchain."
+                                }), Object(a.jsxs)("div", {
+                                    className: "jsx-3384968421 gum-button",                                    
+                                    children: Object(a.jsxs)("a", {
+                                        href: "https://dogxdefi.gitbook.io/dogx/our-products/nfts",
+                                        target: "blank",
+                                        className: "jsx-370036588",
+                                        children: [Object(a.jsx)("button", {
+                                            className: "jsx-3384968421 button-light",
+                                            children: "Explore DogX NFTs"
+                                        }), Object(a.jsx)("div", {
+                                            className: "jsx-3384968421 gum-button__overlay"
+                                        })]
+                                    })
+                                })]
+                            })]
+                        }), Object(a.jsx)(c.a, {
+                            id: "3384968421",
+                            children: ['.ntf.jsx-3384968421{background-image:url("/images/ntf/background.svg");background-size:cover;background-repeat:no-repeat;padding:300px 0;position:relative;overflow:hidden;}', ".ntf-content.jsx-3384968421{max-width:670px;width:100%;margin:0 auto;text-align:center;position:relative;z-index:10;}", ".ntf-title.jsx-3384968421{font-family:Audiowide;font-style:normal;font-weight:normal;font-size:40px;line-height:51px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;text-transform:uppercase;color:#FFFFFF;text-shadow:4px 4px 10px #BD13FF;}", ".ntf-descripton.jsx-3384968421{font-family:Poppins;font-style:normal;font-weight:500;font-size:18px;line-height:30px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;color:#FFFFFF;text-shadow:0px 3.26301px 3.26301px rgba(0,0,0,0.25);margin-top:4rem;}", "@media screen and (max-width:567px){.ntf-content.jsx-3384968421{max-width:316px;}.ntf-title.jsx-3384968421{font-size:35px;line-height:45px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;}.ntf-descripton.jsx-3384968421{font-size:16px;line-height:30px;}}"]
+                        })]
+                    })
+                },
+                g = s("ODXe"),
+                h = function(e) {
+                    var t = n.useState(!1),
+                        s = Object(g.a)(t, 2),
+                        i = (s[0], s[1]),
+                        r = n.useState(!1),
+                        o = Object(g.a)(r, 2),
+                        l = (o[0], o[1]),
+                        m = function(e) {
+                            i(e)
+                        },
+                        x = function(e) {
+                            l(e)
+                        };
+                    return Object(a.jsxs)(n.Fragment, {
+                        children: [Object(a.jsx)("div", {
+                            id: "exchange-farming",
+                            className: "jsx-3781982262 exchange-farming",
+                            children: Object(a.jsx)("div", {
+                                className: "jsx-3781982262 container",
+                                children: Object(a.jsxs)("div", {
+                                    className: "jsx-3781982262 row",
+                                    children: [Object(a.jsx)("div", {
+                                        className: "jsx-3781982262 col-md-6",
+                                        children: Object(a.jsxs)("div", {
+                                            className: "jsx-3781982262 exchange-farming__item left",
+                                            children: [Object(a.jsx)("h1", {
+                                                className: "jsx-3781982262 exchange-farming__title",
+                                                children: "DogX Exchange"
+                                            }), Object(a.jsxs)("p", {
+                                                className: "jsx-3781982262 exchange-farming__description",
+                                                children: [Object(a.jsx)("b", {
+                                                    className: "jsx-3781982262",
+                                                    children: "DogX Exchange"
+                                                }), " the simple way to trade one BEP-20 token for another via automated liquidity pools. In the backend of the exchange, ", Object(a.jsx)("b", {
+                                                    className: "jsx-3781982262",
+                                                    children: " "
+                                                }), " we are using PancakeSwap."]
+                                            }), Object(a.jsx)("div", {
+                                                onMouseOver: function() {
+                                                    return m(!0)
+                                                },
+                                                onMouseOut: function() {
+                                                    return m(!1)
+                                                },
+                                                className: "jsx-3781982262 exchange-farming__button button1",
+                                                children: Object(a.jsx)("a", {
+                                                    href: "https://dogx.io",
+                                                    target: "blank",
+                                                    className: "jsx-3781982262",
+                                                    children: [Object(a.jsx)("button", {
+                                                        className: "jsx-370036588 button-light",
+                                                        children: "Exchange"
+                                                    }), Object(a.jsx)("div", {
+                                                        className: "jsx-370036588 gum-button__overlay"
+                                                    })]
+                                                })
+                                            })]
+                                        })
+                                    }), Object(a.jsx)("div", {
+                                        className: "jsx-3781982262 col-md-6 exchange-farming__item-wrapper",
+                                        children: Object(a.jsxs)("div", {
+                                            className: "jsx-3781982262 exchange-farming__item right",
+                                            children: [Object(a.jsx)("h1", {
+                                                className: "jsx-3781982262 exchange-farming__title",
+                                                children: "Farming"
+                                            }), Object(a.jsxs)("p", {
+                                                className: "jsx-3781982262 exchange-farming__description",
+                                                children: ["DogX Farms & Pools allows you to earn $DOGX with the LP tokens or Single Token you have ", Object(a.jsx)("br", {
+                                                    className: "jsx-3781982262"
+                                                }), " Simply stake the LP or Single coins you already own in their respective DogX Farms or Pools and you will start earning $DOGX with respect to the total farm's staking balance. ", Object(a.jsx)("br", {
+                                                    className: "jsx-3781982262"
+                                                }), " ", Object(a.jsx)("br", {
+                                                    className: "jsx-3781982262"
+                                                }), " "]
+                                            }), Object(a.jsxs)("div", {
+                                                className: "jsx-3781982262 exchange-farming__plane",
+                                                children: [Object(a.jsx)("img", {
+                                                    src: "/images/exchange-farming/airplane.svg",
+                                                    alt: "airplane",
+                                                    className: "jsx-3781982262 exchange-farming__air-plane"
+                                                }), Object(a.jsx)("img", {
+                                                    src: "/images/exchange-farming/earth.svg",
+                                                    alt: "earth",
+                                                    className: "jsx-3781982262 exchange-farming__earth"
+                                                })]
+                                            }), Object(a.jsx)("div", {
+                                                onMouseOver: function() {
+                                                    return x(!0)
+                                                },
+                                                onMouseOut: function() {
+                                                    return x(!1)
+                                                },
+                                                className: "jsx-3781982262 exchange-farming__button button2",
+                                                children: Object(a.jsx)("a", {
+                                                    href: "https://dogx.io",
+                                                    target: "blank",
+                                                    className: "jsx-3781982262",
+                                                    children: [Object(a.jsx)("button", {
+                                                        className: "jsx-370036588 button-light",
+                                                        children: "Farm"
+                                                    }), Object(a.jsx)("div", {
+                                                        className: "jsx-370036588 gum-button__overlay"
+                                                    })]
+                                                })
+                                            })]
+                                        })
+                                    })]
+                                })
+                            })
+                        }), Object(a.jsx)(c.a, {
+                            id: "3781982262",
+                            children: ['.exchange-farming.jsx-3781982262{background-image:url("/images/exchange-farming/background.svg");background-size:cover;background-repeat:no-repeat;padding:150px 0;overflow:hidden;}', ".exchange-farming__title.jsx-3781982262{font-family:Audiowide;font-style:normal;font-weight:normal;font-size:40px;line-height:51px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;text-transform:uppercase;color:#FFFFFF;text-shadow:4px 4px 10px #BD13FF;min-height:102px;}", ".exchange-farming__description.jsx-3781982262{font-family:Poppins;font-style:normal;font-weight:normal;font-size:16px;line-height:30px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;color:#FFFFFF;margin:30px 0 50px;text-shadow:0px 3.26301px 3.26301px rgba(0,0,0,0.25);min-height:210px;z-index:10;position:relative;}", ".exchange-farming__item.jsx-3781982262{max-width:320px;width:100%;text-align:center;position:relative;}", ".exchange-farming__item.left.jsx-3781982262{margin-left:auto;margin-right:2rem;}", ".exchange-farming__item.right.jsx-3781982262{margin-right:auto;margin-left:2rem;}", ".exchange-farming__button.jsx-3781982262{cursor:pointer;position:absolute;}", ".exchange-farming__button.button1.jsx-3781982262{top:400px;left:10px;}", ".exchange-farming__button.button2.jsx-3781982262{top:400px;left:60px;}", ".exchange-farming__air-plane.jsx-3781982262{position:absolute;top:275px;right:-100px;z-index:1;}", ".exchange-farming__earth.jsx-3781982262{position:absolute;top:150px;right:-100px;z-index:0;}", "@media screen and (max-width:576px){.exchange-farming__title.jsx-3781982262{font-size:35px;line-height:45px;min-height:unset;}.exchange-farming__description.jsx-3781982262{min-height:unset;}.exchange-farming__button.button1.jsx-3781982262{top:395px;left:30px;}.exchange-farming__button.button2.jsx-3781982262{top:270px;left:24px;}.exchange-farming__item.right.jsx-3781982262{margin-left:0rem;}.exchange-farming__item-wrapper.jsx-3781982262{margin-top:270px;}.exchange-farming__air-plane.jsx-3781982262{width:200px;top:-140px;right:0;}.exchange-farming__earth.jsx-3781982262{width:139px;top:-200px;right:0;}}"]
+                        })]
+                    })
+                },
+                u = function(e) {
+                    return Object(a.jsxs)(n.Fragment, {
+                        children: [Object(a.jsxs)("div", {
+                            id: "food",
+                            className: "jsx-641939950 food",
+                            children: [Object(a.jsx)("div", {
+                                className: "jsx-641939950 food__plane",
+                                children: Object(a.jsx)("img", {
+                                    src: "/images/food/airplane.svg",
+                                    alt: "airplane",
+                                    className: "jsx-641939950"
+                                })
+                            }), Object(a.jsx)("div", {
+                                className: "jsx-641939950 food__planets",
+                                children: Object(a.jsx)("img", {
+                                    src: "/images/food/planets.svg",
+                                    alt: "planets",
+                                    className: "jsx-641939950"
+                                })
+                            }), Object(a.jsxs)("div", {
+                                className: "jsx-641939950 food__content",
+                                children: [Object(a.jsx)("h1", {
+                                    className: "jsx-641939950 food__content-title",
+                                    children: "DogX Vaults"
+                                }), Object(a.jsxs)("p", {
+                                    className: "jsx-641939950 food__content-description",
+                                    children: [" ", Object(a.jsx)("b", {
+                                        className: "jsx-641939950",
+                                        children: "DogX Vaults"
+                                    }), " save users time and enables higher yields through creative automations, optimal compounding frequency, and highly efficient gas utilisation. ", Object(a.jsx)("span", {
+                                        className: "jsx-641939950",
+                                        children: ""
+                                    }), ""]
+                                }), Object(a.jsxs)("div", {
+                                    className: "jsx-641939950 gum-button",                                    
+                                    children: Object(a.jsxs)("a", {
+                                        href: "https://dogxdefi.gitbook.io/dogx/our-products/vaults",
+                                        target: "blank",
+                                        className: "jsx-641939950",
+                                        children: [Object(a.jsx)("button", {
+                                            className: "jsx-641939950 button-light",
+                                            children: "Go to Vaults"
+                                        }), Object(a.jsx)("div", {
+                                            className: "jsx-641939950 gum-button__overlay"
+                                        })]
+                                    })
+                                })]
+                            }), Object(a.jsx)("div", {
+                                className: "jsx-641939950 food__island",
+                                children: Object(a.jsx)("img", {
+                                    src: "/images/food/island.svg",
+                                    alt: "island",
+                                    className: "jsx-641939950"
+                                })
+                            })]
+                        }), Object(a.jsx)(c.a, {
+                            id: "641939950",
+                            children: ['.food.jsx-641939950{background-image:url("/images/food/background.svg");background-size:cover;background-repeat:no-repeat;padding:150px 0;position:relative;}', ".food__content.jsx-641939950{max-width:400px;margin:0 auto;width:100%;position:relative;z-index:2;}", ".food__content-title.jsx-641939950{font-family:Audiowide;font-style:normal;font-weight:normal;font-size:40px;line-height:51px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;text-transform:uppercase;color:#FFFFFF;text-shadow:4px 4px 10px #BD13FF;}", ".food__content-description.jsx-641939950{font-family:Poppins;font-style:normal;font-weight:500;font-size:18px;line-height:30px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;color:#FFFFFF;text-shadow:0px 3.26301px 3.26301px rgba(0,0,0,0.25);margin-top:2rem;}", ".food__content-description.jsx-641939950 span.jsx-641939950{color:#AF60FF;font-weight:700;}", ".food__plane.jsx-641939950{position:absolute;top:60px;left:30%;}", ".food__planets.jsx-641939950{position:absolute;top:50px;left:65%;}", ".food__island.jsx-641939950{position:absolute;top:200px;left:59%;-webkit-transform:translate(-50%);-ms-transform:translate(-50%);transform:translate(-50%);}", ".food__content.jsx-641939950 .gum-button.jsx-641939950{margin-top:6rem;}", "@media screen and (max-width:576px){.food.jsx-641939950{overflow-x:hidden;padding:210px 0;}.food__island.jsx-641939950{left:88%;top:250px;}.food__content-title.jsx-641939950{font-size:35px;line-height:45px;}.food__content-description.jsx-641939950{font-size:16px;line-height:30px;max-width:316px;width:100%;margin:0 auto;margin-top:1.5rem;}.food__plane.jsx-641939950{top:130px;left:0;}.food__planets.jsx-641939950{top:10px;left:40%;}}"]
+                        })]
+                    })
+                },
+                b = function(e) {
+                    var u = n.useState(!1),
+                        u0 = Object(g.a)(u, 0),
+                        u1 = u0[0],
+                        u2 = u0[1],
+                        u3 = function(e) {
+                            u2(e)
+                        },    
+                        v = n.useState(!1),
+                        v0 = Object(g.a)(v, 0),
+                        v1 = v0[0],
+                        v2 = v0[1],
+                        v3 = function(e) {
+                            v2(e)
+                        },    
+                        p = n.useState(!1),
+                        p0 = Object(g.a)(p, 0),
+                        p1 = p0[0],
+                        p2 = p0[1],
+                        p3 = function(e) {
+                            p2(e)
+                        }, 
+                        q = n.useState(!1),
+                        q0 = Object(g.a)(q, 0),
+                        q1 = q0[0],
+                        q2 = q0[1],
+                        q3 = function(e) {
+                            q2(e)
+                        },    
+                        v = n.useState(!1),
+                        v0 = Object(g.a)(v, 0),
+                        v1 = v0[0],
+                        v2 = v0[1],
+                        v3 = function(e) {
+                            v2(e)
+                        },    
+                        t = n.useState(!1),
+                        s = Object(g.a)(t, 2),
+                        i = s[0],
+                        r = s[1],
+                        o = function(e) {
+                            r(e)
+                        },
+                        l = n.useState(!1),
+                        m = Object(g.a)(l, 2),
+                        x = m[0],
+                        j = m[1],
+                        d = function(e) {
+                            j(e)
+                        };
+                        
+                    return Object(a.jsxs)(n.Fragment, {
+                        children: [Object(a.jsxs)("div", {
+                            id: "roadmap",
+                            className: "jsx-274929485 roadmap",
+                            children: [Object(a.jsx)("h1", {
+                                className: "jsx-274929485 roadmap__title",
+                                children: "ROAD MAP"
+                            }), Object(a.jsx)("div", {
+                                className: "jsx-274929485 roadmap__content",
+                                children: Object(a.jsx)("div", {
+                                    className: "jsx-274929485 container",
+                                    children: Object(a.jsxs)("div", {
+                                        className: "jsx-274929485 row",
+                                        children: [Object(a.jsxs)("div", {
+                                            className: "jsx-274929485 roadmap__content-left",
+                                            children: [Object(a.jsxs)("div", {
+                                                className: "jsx-274929485 stage1",
+                                                children: [Object(a.jsx)("h3", {
+                                                    className: "jsx-274929485 roadmap__content-stage__title",
+                                                    children: "25 April 2021"
+                                                }), Object(a.jsxs)("div", {
+                                                    className: "jsx-274929485 roadmap__content-stage__description",
+                                                    children: [Object(a.jsx)("p", {
+                                                        className: "jsx-274929485",
+                                                        children: "Swap and Liquidity"
+                                                    })]
+                                                }), Object(a.jsx)("div", {
+                                                    onMouseOver: function() {
+                                                        return u3(!0)
+                                                    },
+                                                    onMouseOut: function() {
+                                                        return u3(!1)
+                                                    },
+                                                    className: "jsx-274929485 stage1__image",
+                                                    children: u1 ? Object(a.jsx)("img", {
+                                                        style: {
+                                                            marginTop: "-6px",
+                                                            marginRight: "-3px"
+                                                        },
+                                                        src: "/images/roadmap/point-hover.svg",
+                                                        alt: "point",
+                                                        className: "jsx-274929485"
+                                                    }) : Object(a.jsx)("img", {
+                                                        src: "/images/roadmap/point.svg",
+                                                        alt: "point",
+                                                        className: "jsx-274929485"
+                                                    })
+                                                })]
+                                            }), Object(a.jsx)("div", {
+                                                className: "jsx-274929485 stage2",
+                                                children: Object(a.jsx)("img", {
+                                                    src: "/images/roadmap/rock.svg",
+                                                    alt: "rock",
+                                                    className: "jsx-274929485"
+                                                })
+                                            }), Object(a.jsxs)("div", {
+                                                className: "jsx-274929485 stage3",
+                                                children: [Object(a.jsx)("h3", {
+                                                    className: "jsx-274929485 roadmap__content-stage__title",
+                                                    children: "27 April 2021"
+                                                }), Object(a.jsxs)("div", {
+                                                    className: "jsx-274929485 roadmap__content-stage__description",
+                                                    children: [Object(a.jsx)("p", {
+                                                        className: "jsx-274929485",
+                                                        children: "DogX Farms"
+                                                    })]
+                                                }), Object(a.jsx)("div", {
+                                                    className: "jsx-274929485 stage3__image",
+                                                    onMouseOver: function() {
+                                                        return v3(!0)
+                                                    },
+                                                    onMouseOut: function() {
+                                                        return v3(!1)
+                                                    },
+                                                    children: v1 ? Object(a.jsx)("img", {
+                                                        style: {
+                                                            marginTop: "-6px",
+                                                            marginRight: "-3px"
+                                                        },
+                                                        src: "/images/roadmap/point-hover.svg",
+                                                        alt: "point",
+                                                        className: "jsx-274929485"
+                                                    }) : Object(a.jsx)("img", {
+                                                        src: "/images/roadmap/point.svg",
+                                                        alt: "point",
+                                                        className: "jsx-274929485"
+                                                    })
+                                                })]
+                                            }), Object(a.jsx)("div", {
+                                                className: "jsx-274929485 stage4",
+                                                children: Object(a.jsx)("img", {
+                                                    src: "/images/roadmap/spaceship.svg",
+                                                    alt: "spaceship",
+                                                    className: "jsx-274929485 stage4__img-space-ship"
+                                                })
+                                            }), Object(a.jsxs)("div", {
+                                                className: "jsx-274929485 stage5",
+                                                children: [Object(a.jsx)("h3", {
+                                                    className: "jsx-274929485 roadmap__content-stage__title",
+                                                    children: "July 2021"
+                                                }), Object(a.jsxs)("div", {
+                                                    className: "jsx-274929485 roadmap__content-stage__description",
+                                                    children: [Object(a.jsx)("p", {
+                                                        className: "jsx-274929485",
+                                                        children: "DogX NFTs"
+                                                    })]
+                                                }), Object(a.jsx)("div", {
+                                                    onMouseOver: function() {
+                                                        return o(!0)
+                                                    },
+                                                    onMouseOut: function() {
+                                                        return o(!1)
+                                                    },
+                                                    className: "jsx-274929485 stage5__image",
+                                                    children: i ? Object(a.jsx)("img", {
+                                                        style: {
+                                                            marginTop: "-6px",
+                                                            marginRight: "-3px"
+                                                        },
+                                                        src: "/images/roadmap/point-hover.svg",
+                                                        alt: "point",
+                                                        className: "jsx-274929485"
+                                                    }) : Object(a.jsx)("img", {
+                                                        src: "/images/roadmap/point.svg",
+                                                        alt: "point",
+                                                        className: "jsx-274929485"
+                                                    })
+                                                })]
+                                            })]
+                                        }), Object(a.jsxs)("div", {
+                                            className: "jsx-274929485 roadmap__content-center",
+                                            children: [Object(a.jsx)("img", {
+                                                src: "/images/roadmap/road.svg",
+                                                alt: "road",
+                                                className: "jsx-274929485 roadmap__content-center__img"
+                                            }), Object(a.jsx)("img", {
+                                                src: "/images/roadmap/road-mobile.svg",
+                                                alt: "road",
+                                                className: "jsx-274929485 roadmap__content-center__img-mobile"
+                                            })]
+                                        }), Object(a.jsxs)("div", {
+                                            className: "jsx-274929485 roadmap__content-right",
+                                            children: [Object(a.jsx)("div", {
+                                                className: "jsx-274929485 stage1",
+                                                children: Object(a.jsx)("img", {
+                                                    src: "/images/roadmap/rock.svg",
+                                                    alt: "rock",
+                                                    className: "jsx-274929485"
+                                                })
+                                            }), Object(a.jsxs)("div", {
+                                                className: "jsx-274929485 stage2",
+                                                children: [Object(a.jsx)("h3", {
+                                                    className: "jsx-274929485 roadmap__content-stage__title",
+                                                    children: "25 April 2021"
+                                                }), Object(a.jsxs)("div", {
+                                                    className: "jsx-274929485 roadmap__content-stage__description",
+                                                    children: [Object(a.jsx)("p", {
+                                                        className: "jsx-274929485",
+                                                        children: "Token Launch"
+                                                    })]
+                                                }), Object(a.jsx)("div", {
+                                                    className: "jsx-274929485 stage2__image",
+                                                    onMouseOver: function() {
+                                                        return p3(!0)
+                                                    },
+                                                    onMouseOut: function() {
+                                                        return p3(!1)
+                                                    },
+                                                    children: p1 ? Object(a.jsx)("img", {
+                                                        style: {
+                                                            marginTop: "-6px",
+                                                            marginRight: "-3px"
+                                                        },
+                                                        src: "/images/roadmap/point-hover.svg",
+                                                        alt: "point",
+                                                        className: "jsx-274929485"
+                                                    }) : Object(a.jsx)("img", {
+                                                        src: "/images/roadmap/point.svg",
+                                                        alt: "point",
+                                                        className: "jsx-274929485"
+                                                    })
+                                                })]
+                                            }), Object(a.jsx)("div", {
+                                                className: "jsx-274929485 stage3"
+                                            }), Object(a.jsxs)("div", {
+                                                className: "jsx-274929485 stage4",
+                                                children: [Object(a.jsx)("h3", {
+                                                    className: "jsx-274929485 roadmap__content-stage__title",
+                                                    children: "May 2021"
+                                                }), Object(a.jsxs)("div", {
+                                                    className: "jsx-274929485 roadmap__content-stage__description",
+                                                    children: [Object(a.jsxs)("p", {
+                                                        className: "jsx-274929485",
+                                                        children: ["DogX Vaults"]
+                                                    })]
+                                                }), Object(a.jsx)("div", {
+                                                    className: "jsx-274929485 stage4__image",
+                                                    onMouseOver: function() {
+                                                        return q3(!0)
+                                                    },
+                                                    onMouseOut: function() {
+                                                        return q3(!1)
+                                                    },
+                                                    children: q1 ? Object(a.jsx)("img", {
+                                                        style: {
+                                                            marginTop: "-6px",
+                                                            marginRight: "-3px"
+                                                        },
+                                                        src: "/images/roadmap/point-hover.svg",
+                                                        alt: "point",
+                                                        className: "jsx-274929485"
+                                                    }) : Object(a.jsx)("img", {
+                                                        src: "/images/roadmap/point.svg",
+                                                        alt: "point",
+                                                        className: "jsx-274929485"
+                                                    })
+                                                })]
+                                            }), Object(a.jsx)("div", {
+                                                className: "jsx-274929485 stage5"
+                                            }), Object(a.jsxs)("div", {
+                                                className: "jsx-274929485 stage6",
+                                                children: [Object(a.jsx)("h3", {
+                                                    className: "jsx-274929485 roadmap__content-stage__title",
+                                                    children: "October 2021"
+                                                }), Object(a.jsxs)("div", {
+                                                    className: "jsx-274929485 roadmap__content-stage__description",
+                                                    children: [Object(a.jsx)("p", {
+                                                        className: "jsx-274929485",
+                                                        children: "DogX Game"
+                                                    })]
+                                                }), Object(a.jsx)("div", {
+                                                    onMouseOver: function() {
+                                                        return d(!0)
+                                                    },
+                                                    onMouseOut: function() {
+                                                        return d(!1)
+                                                    },
+                                                    className: "jsx-274929485 stage6__image",
+                                                    children: x ? Object(a.jsx)("img", {
+                                                        style: {
+                                                            marginTop: "-6px",
+                                                            marginLeft: "-3px"
+                                                        },
+                                                        src: "/images/roadmap/point-hover.svg",
+                                                        alt: "point",
+                                                        className: "jsx-274929485"
+                                                    }) : Object(a.jsx)("img", {
+                                                        src: "/images/roadmap/point.svg",
+                                                        alt: "point",
+                                                        className: "jsx-274929485"
+                                                    })
+                                                })]
+                                            })]
+                                        })]
+                                    })
+                                })
+                            })]
+                        }), Object(a.jsx)(c.a, {
+                            id: "274929485",
+                            children: ['.roadmap.jsx-274929485{background-image:url("/images/roadmap/background.svg");background-size:cover;background-repeat:no-repeat;padding:150px 0;position:relative;}', ".roadmap__title.jsx-274929485{font-family:Audiowide;font-style:normal;font-weight:normal;font-size:40px;line-height:51px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;text-transform:uppercase;color:#FFFFFF;text-shadow:4px 4px 10px #BD13FF;}", ".roadmap__content.jsx-274929485{margin-top:2rem;}", ".roadmap__content-left.jsx-274929485,.roadmap__content-right.jsx-274929485{width:calc((100% - 299px) / 2);position:relative;}", ".roadmap__content-stage__title.jsx-274929485{font-family:Poppins;font-style:normal;font-weight:bold;font-size:18px;line-height:27px;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;color:#00FFED;text-shadow:0px 3.26301px 3.26301px rgba(0,0,0,0.25);}", ".roadmap__content-stage__description.jsx-274929485 p.jsx-274929485{font-family:Poppins;font-style:normal;font-weight:500;font-size:13px;line-height:20px;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;color:#FFFFFF;text-shadow:0px 3.26301px 3.26301px rgba(0,0,0,0.25);margin:0;}", ".roadmap__content-left.jsx-274929485 .stage1.jsx-274929485{margin-right:2rem;margin-top:3rem;}", ".stage1__image.jsx-274929485{position:absolute;top:38px;left:99%;}", ".roadmap__content-right.jsx-274929485 .stage1.jsx-274929485{text-align:right;margin-right:10rem;margin-top:4rem;}", ".roadmap__content-left.jsx-274929485 .stage1.jsx-274929485,.roadmap__content-right.jsx-274929485 .stage1.jsx-274929485{min-height:135px;}", ".stage1.jsx-274929485 .roadmap__content-stage__title.jsx-274929485,.stage1.jsx-274929485 .roadmap__content-stage__description.jsx-274929485 p.jsx-274929485,.stage3.jsx-274929485 .roadmap__content-stage__title.jsx-274929485,.stage3.jsx-274929485 .roadmap__content-stage__description.jsx-274929485 p.jsx-274929485,.stage5.jsx-274929485 .roadmap__content-stage__title.jsx-274929485,.stage5.jsx-274929485 .roadmap__content-stage__description.jsx-274929485 p.jsx-274929485{text-align:right;}", ".stage2.jsx-274929485 .roadmap__content-stage__title.jsx-274929485,.stage2.jsx-274929485 .roadmap__content-stage__description.jsx-274929485 p.jsx-274929485{text-align:left;}", ".roadmap__content-left.jsx-274929485 .stage2.jsx-274929485{margin-top:130px;margin-left:40%;min-height:70px;}", ".roadmap__content-right.jsx-274929485 .stage2.jsx-274929485{margin-left:-40%;min-height:150px;}", ".stage2__image.jsx-274929485{position:absolute;top:200px;left:-74%;}", ".roadmap__content-left.jsx-274929485 .stage3.jsx-274929485{margin-right:-10%;min-height:200px;}", ".roadmap__content-right.jsx-274929485 .stage3.jsx-274929485{min-height:250px;}", ".stage3__image.jsx-274929485{position:absolute;top:380px;left:115%;}", ".roadmap__content-right.jsx-274929485 .stage4.jsx-274929485{min-height:255px;margin-left:-30%;}", ".roadmap__content-left.jsx-274929485 .stage4.jsx-274929485{margin-top:100px;}", ".our-team__person-avatar.jsx-274929485{width:150px;height:150px;border-radius:50%;overflow:hidden;margin:0 auto;border:3px solid white;}", ".our-team__person-avatar.jsx-274929485 img.jsx-274929485{width:100%;}", ".stage4__image.jsx-274929485{position:absolute;top:600px;left:-55%;}", ".roadmap__content-left.jsx-274929485 .stage5.jsx-274929485{margin-right:-20%;min-height:280px;}", ".stage5__image.jsx-274929485{position:absolute;top:850px;right:-72%;cursor:pointer;}", ".roadmap__content-right.jsx-274929485 .stage5.jsx-274929485{min-height:280px;}", ".roadmap__content-right.jsx-274929485 .stage6.jsx-274929485{min-height:290px;margin-left:-15%;}", ".stage6__image.jsx-274929485{position:absolute;top:1140px;left:-53%;cursor:pointer;}", ".our-team.jsx-274929485{margin-top:5rem;}", ".our-team__person__title.jsx-274929485{font-family:Audiowide;font-style:normal;font-weight:normal;font-size:18px;line-height:30px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;color:#FFE773;margin-bottom:2rem;}", ".our-team__person__subtitle.jsx-274929485{font-family:Poppins;font-style:normal;font-weight:600;font-size:18px;line-height:30px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;text-transform:uppercase;margin:1rem 0;color:#FFE773;}", ".our-team__person__description.jsx-274929485{font-family:Poppins;font-style:normal;font-weight:500;font-size:13px;line-height:23px;text-align:center;color:#FFFFFF;text-shadow:0px 3.26301px 3.26301px rgba(0,0,0,0.25);}", ".our-team__person-social.jsx-274929485{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;width:100%;margin-bottom:1rem;}", ".our-team__person-social.jsx-274929485 a.jsx-274929485{color:white;border:1px solid white;width:30px;height:30px;text-align:center;line-height:30px;}", ".roadmap__content-center__img-mobile.jsx-274929485{display:none;}", "@media screen and (max-width:576px){.roadmap.jsx-274929485{overflow:hidden;background-size:100%;background-repeat:repeat-y;}.roadmap__content-left.jsx-274929485 .stage1.jsx-274929485{width:220px;margin-right:0;margin-left:130px;}.roadmap__content-right.jsx-274929485 .stage1.jsx-274929485{margin-right:-3rem;margin-top:3.5rem;}.stage1__image.jsx-274929485{top:33px;left:77%;}.roadmap__content-stage__title.jsx-274929485{text-align:left !important;}.roadmap__content-stage__description.jsx-274929485 p.jsx-274929485{text-align:left !important;}.roadmap__content-right.jsx-274929485 .stage2.jsx-274929485{margin-left:-104px;width:220px;margin-top:16px;}.stage2__image.jsx-274929485{left:-208px;}.roadmap__content-stage__description__research-market.jsx-274929485{margin-left:32px !important;}.roadmap__content-left.jsx-274929485 .stage3.jsx-274929485{width:185px;margin-left:178px;margin-top:38px;}.stage3__image.jsx-274929485{left:205%;top:405px;}.roadmap__content-stage__description.jsx-274929485 p.jsx-274929485{font-size:11px;}.roadmap__content-center__img-mobile.jsx-274929485{display:block;}.roadmap__content-center__img.jsx-274929485{display:none;}.roadmap__content-right.jsx-274929485 .stage4.jsx-274929485{margin-top:100px;margin-left:-57px;width:182px;}.stage4__image.jsx-274929485{top:743px;left:-500%;}.roadmap__content-stage__description__and-smart.jsx-274929485{margin-left:32px;}.roadmap__content-stage__description__liquidity.jsx-274929485{margin-left:40px;}.stage4.jsx-274929485{margin-left:24px;}.roadmap__content-left.jsx-274929485 .stage4.jsx-274929485{margin-top:150px;}.stage4__img-space-ship.jsx-274929485{width:125px;height:68px;}.stage5__image.jsx-274929485{top:1050px;right:-320%;}.roadmap__content-left.jsx-274929485 .stage5.jsx-274929485{width:185px;margin-left:185px;margin-top:134px;}.roadmap__content-right.jsx-274929485 .stage6.jsx-274929485{margin-top:220px;margin-left:-120px;width:182px;}.roadmap__content-right.jsx-274929485 .stage6.jsx-274929485 .roadmap__content-stage__title.jsx-274929485{text-align:center!important;}.roadmap__content-right.jsx-274929485 .stage6.jsx-274929485 .roadmap__content-stage__description.jsx-274929485 p.jsx-274929485{text-align:center!important;}.stage6__image.jsx-274929485{top:1430px;left:-170%;}}"]
+                        })]
+                    })
+                },
+                _ = function(e) {
+                    return Object(a.jsxs)(n.Fragment, {
+                        children: [Object(a.jsxs)("footer", {
+                            id: "footer",
+                            className: "jsx-2185239078 footer",
+                            children: [Object(a.jsx)("div", {
+                                className: "jsx-2185239078 footer__wave",
+                                children: Object(a.jsx)("img", {
+                                    src: "/images/footer/wave.svg",
+                                    alt: "wave",
+                                    className: "jsx-2185239078"
+                                })
+                            }), Object(a.jsxs)("div", {
+                                className: "jsx-2185239078 strategic__content",
+                                children: [Object(a.jsx)("h1", {
+                                    className: "jsx-2185239078 strategic__content-title mb-5",
+                                    children: "STRATEGIC PARTNERSHIP"
+                                }), Object(a.jsxs)("div", {
+                                    className: "jsx-2185239078 row",
+                                    children: [Object(a.jsx)("div", {
+                                        className: "jsx-2185239078 col-md-4 mb-5 text-center",
+                                        children: Object(a.jsx)("a", {
+                                            href: "https://dappradar.com/",
+                                            target: "blank",
+                                            className: "jsx-2185239078",
+                                            children: Object(a.jsx)("img", {
+                                                src: "/images/roadmap/dapp-radar.png",
+                                                alt: "DappRadar",
+                                                className: "jsx-2185239078"
+                                            })
+                                        })
+                                    }), Object(a.jsx)("div", {
+                                        className: "jsx-2185239078 col-md-4 mb-5 text-center",
+                                        children: Object(a.jsx)("a", {
+                                            href: "https://www.binance.org/en/smartChain",
+                                            target: "blank",
+                                            className: "jsx-2185239078",
+                                            children: Object(a.jsx)("img", {
+                                                src: "/images/roadmap/bsc.png",
+                                                alt: "mythx",
+                                                className: "jsx-2185239078"
+                                            })
+                                        })
+                                    })
+                                    , Object(a.jsx)("div", {
+                                        className: "jsx-2185239078 col-md-4 mb-5 text-center",
+                                        children: Object(a.jsx)("a", {
+                                            href: "https://mythx.io/",
+                                            target: "blank",
+                                            className: "jsx-2185239078",
+                                            children: Object(a.jsx)("img", {
+                                                src: "/images/roadmap/mythx.png",
+                                                alt: "mythx",
+                                                className: "jsx-2185239078"
+                                            })
+                                        })
+                                    })]
+                                })]
+                            }), Object(a.jsxs)("div", {
+                                className: "jsx-2185239078 footer__content mt-5",
+                                children: [Object(a.jsx)("h1", {
+                                    className: "jsx-2185239078 footer__content-title",
+                                    children: "contact us"
+                                }), Object(a.jsx)("p", {
+                                    className: "jsx-2185239078 footer__content-description",
+                                    children: "If you'd like to reach out to DOGX team in any way, please get in touch with us via the following email."
+                                }), Object(a.jsx)("button", {
+                                    className: "jsx-2185239078 footer__button",
+                                    children: "contact@dogx.io"
+                                }), Object(a.jsx)("div", {
+                                    className: "jsx-2185239078 footer__social",
+                                    children: Object(a.jsxs)("div", {
+                                        className: "jsx-2185239078 row",
+                                        children: [Object(a.jsx)("div", {
+                                            className: "jsx-2185239078 col-4 text-center",
+                                            children: Object(a.jsx)("a", {
+                                                href: "https://dogxdefi.medium.com/",
+                                                target: "_blank",
+                                                className: "jsx-2185239078",
+                                                children: Object(a.jsx)("img", {
+                                                    src: "/images/footer/medium.svg",
+                                                    alt: "medium",
+                                                    className: "jsx-2185239078"
+                                                })
+                                            })
+                                        }), Object(a.jsx)("div", {
+                                            className: "jsx-2185239078 col-4 text-center",
+                                            children: Object(a.jsx)("a", {
+                                                href: "https://t.me/DogXDefi",
+                                                target: "_blank",
+                                                className: "jsx-2185239078",
+                                                children: Object(a.jsx)("img", {
+                                                    src: "/images/footer/telegram.svg",
+                                                    alt: "telegram",
+                                                    className: "jsx-2185239078"
+                                                })
+                                            })
+                                        }), Object(a.jsx)("div", {
+                                            className: "jsx-2185239078 col-4 text-center",
+                                            children: Object(a.jsx)("a", {
+                                                href: "https://twitter.com/DogX77406371",
+                                                target: "_blank",
+                                                className: "jsx-2185239078",
+                                                children: Object(a.jsx)("img", {
+                                                    src: "/images/footer/twitter.svg",
+                                                    alt: "twitter",
+                                                    className: "jsx-2185239078"
+                                                })
+                                            })
+                                        })]
+                                    })
+                                })]
+                            })]
+                        }), Object(a.jsx)(c.a, {
+                            id: "2185239078",
+                            children: [".footer.jsx-2185239078{padding:120px 0;position:relative;}", ".footer__content.jsx-2185239078,.partner__content.jsx-2185239078,.strategic__content.jsx-2185239078{max-width:600px;width:100%;margin:0 auto;padding:0 1rem;}", ".strategic__content.jsx-2185239078{max-width:800px;}", ".footer__content-title.jsx-2185239078,.partner__content-title.jsx-2185239078,.strategic__content-title.jsx-2185239078{font-family:Audiowide;font-style:normal;font-weight:normal;font-size:40px;line-height:51px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;text-transform:uppercase;color:#FFFFFF;text-shadow:4px 4px 10px #BD13FF;}", ".footer__content-description.jsx-2185239078{margin:2rem 0;font-family:Poppins;font-style:normal;font-weight:500;font-size:21.2096px;line-height:32px;text-align:justify;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;color:#FFFFFF;text-shadow:0px 3.26301px 3.26301px rgba(0,0,0,0.25);text-align:center;}", ".footer__button.jsx-2185239078{width:100%;background:linear-gradient(0deg,rgba(189,19,255,0.5) -31.86%,rgba(169,57,149,0.5) -2.24%,rgba(189,19,255,0) 130.2%);mix-blend-mode:screen;border-radius:5px;font-family:Poppins;font-style:normal;font-size:21.2096px;line-height:32px;text-align:center;-webkit-letter-spacing:0.05em;-moz-letter-spacing:0.05em;-ms-letter-spacing:0.05em;letter-spacing:0.05em;color:#FFFFFF;min-height:48px;text-shadow:0px 3.26301px 3.26301px rgba(0,0,0,0.25);}", ".footer__wave.jsx-2185239078 img.jsx-2185239078{width:100%;}", ".footer__wave.jsx-2185239078{position:absolute;bottom:0;left:0;width:100%;}", ".footer__social.jsx-2185239078{margin-top:2rem;}", ".partner__content.jsx-2185239078{text-align:center;}", ".partner__content.jsx-2185239078 img.jsx-2185239078{width:100%;height:100%;max-width:380px;margin:0 auto;}", ".strategic__content.jsx-2185239078 img.jsx-2185239078{width:30%;height:100%;max-width:380px;margin:0 auto;}", ".blocksync.jsx-2185239078{padding-top:2rem;width:40%!important;height:auto!important;}", "@media screen and (max-width:567px){.footer__content-title.jsx-2185239078{font-size:35px;line-height:45px;}.footer__content-description.jsx-2185239078{font-size:16px;line-height:30px;}.footer__button.jsx-2185239078{font-size:16px;line-height:24px;}.blocksync.jsx-2185239078{width:90%!important;margin-top:5rem!important;height:auto!important;}.strategic__content.jsx-2185239078 img.jsx-2185239078{width:30%;}}"]
+                        })]
+                    })
+                },
+                f = !0;
+            t.default = function(e) {
+                return Object(a.jsxs)(n.Fragment, {
+                    children: [Object(a.jsx)(r.a, {
+                        children: Object(a.jsx)("title", {
+                            children: "DogX"
+                        })
+                    }), Object(a.jsxs)(n.Fragment, {
+                        children: [Object(a.jsx)(x, {
+                            result: e.result.data
+                        }), Object(a.jsx)(j, {}), Object(a.jsx)(p, {}), Object(a.jsx)(h, {}), Object(a.jsx)(u, {}), Object(a.jsx)(b, {}), Object(a.jsx)(_, {}), Object(a.jsx)(d.a, {})]
+                    })]
+                })
+            }
+        },
+        "7W2i": function(e, t, s) {
+            var a = s("SksO");
+            e.exports = function(e, t) {
+                if ("function" !== typeof t && null !== t) throw new TypeError("Super expression must either be null or a function");
+                e.prototype = Object.create(t && t.prototype, {
+                    constructor: {
+                        value: e,
+                        writable: !0,
+                        configurable: !0
+                    }
+                }), t && a(e, t)
+            }
+        },
+        "8Kt/": function(e, t, s) {
+            "use strict";
+            s("lSNA");
+            t.__esModule = !0, t.defaultHead = m, t.default = void 0;
+            var a, n = function(e) {
+                    if (e && e.__esModule) return e;
+                    if (null === e || "object" !== typeof e && "function" !== typeof e) return {
+                        default: e
+                    };
+                    var t = l();
+                    if (t && t.has(e)) return t.get(e);
+                    var s = {},
+                        a = Object.defineProperty && Object.getOwnPropertyDescriptor;
+                    for (var n in e)
+                        if (Object.prototype.hasOwnProperty.call(e, n)) {
+                            var i = a ? Object.getOwnPropertyDescriptor(e, n) : null;
+                            i && (i.get || i.set) ? Object.defineProperty(s, n, i) : s[n] = e[n]
+                        }
+                    s.default = e, t && t.set(e, s);
+                    return s
+                }(s("q1tI")),
+                i = (a = s("Xuae")) && a.__esModule ? a : {
+                    default: a
+                },
+                r = s("lwAK"),
+                o = s("FYa8"),
+                c = s("/0+H");
+
+            function l() {
+                if ("function" !== typeof WeakMap) return null;
+                var e = new WeakMap;
+                return l = function() {
+                    return e
+                }, e
+            }
+
+            function m() {
+                var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0],
+                    t = [n.default.createElement("meta", {
+                        charSet: "utf-8"
+                    })];
+                return e || t.push(n.default.createElement("meta", {
+                    name: "viewport",
+                    content: "width=device-width"
+                })), t
+            }
+
+            function x(e, t) {
+                return "string" === typeof t || "number" === typeof t ? e : t.type === n.default.Fragment ? e.concat(n.default.Children.toArray(t.props.children).reduce((function(e, t) {
+                    return "string" === typeof t || "number" === typeof t ? e : e.concat(t)
+                }), [])) : e.concat(t)
+            }
+            var j = ["name", "httpEquiv", "charSet", "itemProp"];
+
+            function d(e, t) {
+                return e.reduce((function(e, t) {
+                    var s = n.default.Children.toArray(t.props.children);
+                    return e.concat(s)
+                }), []).reduce(x, []).reverse().concat(m(t.inAmpMode)).filter(function() {
+                    var e = new Set,
+                        t = new Set,
+                        s = new Set,
+                        a = {};
+                    return function(n) {
+                        var i = !0;
+                        if (n.key && "number" !== typeof n.key && n.key.indexOf("$") > 0) {
+                            var r = n.key.slice(n.key.indexOf("$") + 1);
+                            e.has(r) ? i = !1 : e.add(r)
+                        }
+                        switch (n.type) {
+                            case "title":
+                            case "base":
+                                t.has(n.type) ? i = !1 : t.add(n.type);
+                                break;
+                            case "meta":
+                                for (var o = 0, c = j.length; o < c; o++) {
+                                    var l = j[o];
+                                    if (n.props.hasOwnProperty(l))
+                                        if ("charSet" === l) s.has(l) ? i = !1 : s.add(l);
+                                        else {
+                                            var m = n.props[l],
+                                                x = a[l] || new Set;
+                                            x.has(m) ? i = !1 : (x.add(m), a[l] = x)
+                                        }
+                                }
+                        }
+                        return i
+                    }
+                }()).reverse().map((function(e, t) {
+                    var s = e.key || t;
+                    return n.default.cloneElement(e, {
+                        key: s
+                    })
+                }))
+            }
+
+            function p(e) {
+                var t = e.children,
+                    s = (0, n.useContext)(r.AmpStateContext),
+                    a = (0, n.useContext)(o.HeadManagerContext);
+                return n.default.createElement(i.default, {
+                    reduceComponentsToState: d,
+                    headManager: a,
+                    inAmpMode: (0, c.isInAmpMode)(s)
+                }, t)
+            }
+            p.rewind = function() {};
+            var g = p;
+            t.default = g
+        },
+        Bnag: function(e, t) {
+            e.exports = function() {
+                throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")
+            }
+        },
+        EbDI: function(e, t) {
+            e.exports = function(e) {
+                if ("undefined" !== typeof Symbol && Symbol.iterator in Object(e)) return Array.from(e)
+            }
+        },
+        FYa8: function(e, t, s) {
+            "use strict";
+            var a;
+            t.__esModule = !0, t.HeadManagerContext = void 0;
+            var n = ((a = s("q1tI")) && a.__esModule ? a : {
+                default: a
+            }).default.createContext({});
+            t.HeadManagerContext = n
+        },
+        Ijbi: function(e, t, s) {
+            var a = s("WkPL");
+            e.exports = function(e) {
+                if (Array.isArray(e)) return a(e)
+            }
+        },
+        InUf: function(e, t, s) {
+            "use strict";
+            var a = s("nKUr"),
+                n = s("MX0m"),
+                i = s.n(n),
+                r = s("q1tI");
+            t.a = function(e) {
+                return Object(a.jsxs)(r.Fragment, {
+                    children: [Object(a.jsx)("div", {
+                        id: "button-top",
+                        onClick: function() {
+                            document.getElementById("home").scrollIntoView({
+                                behavior: "smooth"
+                            })
+                        },
+                        className: "jsx-3122649095 button-top",
+                        children: Object(a.jsx)("img", {
+                            src: "/images/button-top/ArrowTop.svg",
+                            alt: "arrow-top",
+                            className: "jsx-3122649095"
+                        })
+                    }), Object(a.jsx)(i.a, {
+                        id: "3122649095",
+                        children: [".button-top.jsx-3122649095{position:fixed;opacity:0;visibility:hidden;bottom:15px;right:20px;background:#FFFFFF;border:1.5px solid #35122F;box-sizing:border-box;width:37px;height:37px;border-radius:50%;text-align:center;line-height:30px;-webkit-translateX:-50%;translateX:-50%;box-shadow:0px 0px 15px #BD13FF;}", ".button-top.active.jsx-3122649095{opacity:1;visibility:visible;}"]
+                    })]
+                })
+            }
+        },
+        Nsbk: function(e, t) {
+            function s(t) {
+                return e.exports = s = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
+                    return e.__proto__ || Object.getPrototypeOf(e)
+                }, s(t)
+            }
+            e.exports = s
+        },
+        ODXe: function(e, t, s) {
+            "use strict";
+
+            function a(e, t) {
+                (null == t || t > e.length) && (t = e.length);
+                for (var s = 0, a = new Array(t); s < t; s++) a[s] = e[s];
+                return a
+            }
+
+            function n(e, t) {
+                return function(e) {
+                    if (Array.isArray(e)) return e
+                }(e) || function(e, t) {
+                    if ("undefined" !== typeof Symbol && Symbol.iterator in Object(e)) {
+                        var s = [],
+                            a = !0,
+                            n = !1,
+                            i = void 0;
+                        try {
+                            for (var r, o = e[Symbol.iterator](); !(a = (r = o.next()).done) && (s.push(r.value), !t || s.length !== t); a = !0);
+                        } catch (c) {
+                            n = !0, i = c
+                        } finally {
+                            try {
+                                a || null == o.return || o.return()
+                            } finally {
+                                if (n) throw i
+                            }
+                        }
+                        return s
+                    }
+                }(e, t) || function(e, t) {
+                    if (e) {
+                        if ("string" === typeof e) return a(e, t);
+                        var s = Object.prototype.toString.call(e).slice(8, -1);
+                        return "Object" === s && e.constructor && (s = e.constructor.name), "Map" === s || "Set" === s ? Array.from(e) : "Arguments" === s || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(s) ? a(e, t) : void 0
+                    }
+                }(e, t) || function() {
+                    throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")
+                }()
+            }
+            s.d(t, "a", (function() {
+                return n
+            }))
+        },
+        PJYZ: function(e, t) {
+            e.exports = function(e) {
+                if (void 0 === e) throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+                return e
+            }
+        },
+        RIqP: function(e, t, s) {
+            var a = s("Ijbi"),
+                n = s("EbDI"),
+                i = s("ZhPi"),
+                r = s("Bnag");
+            e.exports = function(e) {
+                return a(e) || n(e) || i(e) || r()
+            }
+        },
+        SksO: function(e, t) {
+            function s(t, a) {
+                return e.exports = s = Object.setPrototypeOf || function(e, t) {
+                    return e.__proto__ = t, e
+                }, s(t, a)
+            }
+            e.exports = s
+        },
+        W8MJ: function(e, t) {
+            function s(e, t) {
+                for (var s = 0; s < t.length; s++) {
+                    var a = t[s];
+                    a.enumerable = a.enumerable || !1, a.configurable = !0, "value" in a && (a.writable = !0), Object.defineProperty(e, a.key, a)
+                }
+            }
+            e.exports = function(e, t, a) {
+                return t && s(e.prototype, t), a && s(e, a), e
+            }
+        },
+        WkPL: function(e, t) {
+            e.exports = function(e, t) {
+                (null == t || t > e.length) && (t = e.length);
+                for (var s = 0, a = new Array(t); s < t; s++) a[s] = e[s];
+                return a
+            }
+        },
+        Xuae: function(e, t, s) {
+            "use strict";
+            var a = s("RIqP"),
+                n = s("lwsE"),
+                i = s("W8MJ"),
+                r = (s("PJYZ"), s("7W2i")),
+                o = s("a1gu"),
+                c = s("Nsbk");
+
+            function l(e) {
+                var t = function() {
+                    if ("undefined" === typeof Reflect || !Reflect.construct) return !1;
+                    if (Reflect.construct.sham) return !1;
+                    if ("function" === typeof Proxy) return !0;
+                    try {
+                        return Date.prototype.toString.call(Reflect.construct(Date, [], (function() {}))), !0
+                    } catch (e) {
+                        return !1
+                    }
+                }();
+                return function() {
+                    var s, a = c(e);
+                    if (t) {
+                        var n = c(this).constructor;
+                        s = Reflect.construct(a, arguments, n)
+                    } else s = a.apply(this, arguments);
+                    return o(this, s)
+                }
+            }
+            t.__esModule = !0, t.default = void 0;
+            var m = s("q1tI"),
+                x = function(e) {
+                    r(s, e);
+                    var t = l(s);
+
+                    function s(e) {
+                        var i;
+                        return n(this, s), (i = t.call(this, e))._hasHeadManager = void 0, i.emitChange = function() {
+                            i._hasHeadManager && i.props.headManager.updateHead(i.props.reduceComponentsToState(a(i.props.headManager.mountedInstances), i.props))
+                        }, i._hasHeadManager = i.props.headManager && i.props.headManager.mountedInstances, i
+                    }
+                    return i(s, [{
+                        key: "componentDidMount",
+                        value: function() {
+                            this._hasHeadManager && this.props.headManager.mountedInstances.add(this), this.emitChange()
+                        }
+                    }, {
+                        key: "componentDidUpdate",
+                        value: function() {
+                            this.emitChange()
+                        }
+                    }, {
+                        key: "componentWillUnmount",
+                        value: function() {
+                            this._hasHeadManager && this.props.headManager.mountedInstances.delete(this), this.emitChange()
+                        }
+                    }, {
+                        key: "render",
+                        value: function() {
+                            return null
+                        }
+                    }]), s
+                }(m.Component);
+            t.default = x
+        },
+        YuTi: function(e, t) {
+            e.exports = function(e) {
+                return e.webpackPolyfill || (e.deprecate = function() {}, e.paths = [], e.children || (e.children = []), Object.defineProperty(e, "loaded", {
+                    enumerable: !0,
+                    get: function() {
+                        return e.l
+                    }
+                }), Object.defineProperty(e, "id", {
+                    enumerable: !0,
+                    get: function() {
+                        return e.i
+                    }
+                }), e.webpackPolyfill = 1), e
+            }
+        },
+        ZhPi: function(e, t, s) {
+            var a = s("WkPL");
+            e.exports = function(e, t) {
+                if (e) {
+                    if ("string" === typeof e) return a(e, t);
+                    var s = Object.prototype.toString.call(e).slice(8, -1);
+                    return "Object" === s && e.constructor && (s = e.constructor.name), "Map" === s || "Set" === s ? Array.from(e) : "Arguments" === s || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(s) ? a(e, t) : void 0
+                }
+            }
+        },
+        a1gu: function(e, t, s) {
+            var a = s("cDf5"),
+                n = s("PJYZ");
+            e.exports = function(e, t) {
+                return !t || "object" !== a(t) && "function" !== typeof t ? n(e) : t
+            }
+        },
+        cDf5: function(e, t) {
+            function s(t) {
+                return "function" === typeof Symbol && "symbol" === typeof Symbol.iterator ? e.exports = s = function(e) {
+                    return typeof e
+                } : e.exports = s = function(e) {
+                    return e && "function" === typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
+                }, s(t)
+            }
+            e.exports = s
+        },
+        g4pe: function(e, t, s) {
+            e.exports = s("8Kt/")
+        },
+        lSNA: function(e, t) {
+            e.exports = function(e, t, s) {
+                return t in e ? Object.defineProperty(e, t, {
+                    value: s,
+                    enumerable: !0,
+                    configurable: !0,
+                    writable: !0
+                }) : e[t] = s, e
+            }
+        },
+        lwAK: function(e, t, s) {
+            "use strict";
+            var a;
+            t.__esModule = !0, t.AmpStateContext = void 0;
+            var n = ((a = s("q1tI")) && a.__esModule ? a : {
+                default: a
+            }).default.createContext({});
+            t.AmpStateContext = n
+        },
+        lwsE: function(e, t) {
+            e.exports = function(e, t) {
+                if (!(e instanceof t)) throw new TypeError("Cannot call a class as a function")
+            }
+        },
+        yLpj: function(e, t) {
+            var s;
+            s = function() {
+                return this
+            }();
+            try {
+                s = s || new Function("return this")()
+            } catch (a) {
+                "object" === typeof window && (s = window)
+            }
+            e.exports = s
+        }
+    },
+    [
+        ["/EDR", 0, 1, 3, 2]
+    ]
+]);
